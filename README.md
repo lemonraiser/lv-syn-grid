@@ -25,7 +25,7 @@ presented approach for a selected set of rural areas can be found in the corresp
 
 # License
 This project is licensed under the MIT License.<br>
-Please see the [LICENSE]() file for details.
+Please see the [LICENSE](LICENSE.txt) file for details.
 
 # Citation
 If you use this code in a scientific publication, please cite the associated thesis:
