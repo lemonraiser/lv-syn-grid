@@ -5,7 +5,10 @@ An algorithmic approach for synthesizing realistic low-voltage distribution grid
 This python-based tool provides an algorithmic workflow for generating synthetic low-voltage distribution grids from Open Data. Using publicly available OpenStreetMap data, the tool extracts buildings and road networks, estimates electricity demand, derives a radial grid topology with graph-based methods, places transformers, and builds a pandapower network model for power flow and time-series simulations.
 
 ### Core Features
-In progress ...
+- Automated low-voltage grid synthesis
+  Generation of low-voltage distribution networks based on publicly available geospatial data (e.g., OpenStreetMap, statistical data.
+- Demand estimation based on building data
+  Estimation of electrical loads using building footprints, usage types, and attributes such as floor area and estimated bulding height.
 
 ### Study Area
 In progress ...
