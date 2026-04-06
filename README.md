@@ -14,7 +14,11 @@ This python-based tool provides an algorithmic workflow for generating synthetic
 - **Graph based network construction**<br>
   Representation of the network model using graph theory. A minimum spanning tree (MST) is applied to derive radial grid topologies typical for rural low-voltage grids.
 - **Photovoltaic (PV) integration**<br>
-
+Integration of PV systems into the synthesized grid model for simulation.
+- **Load flow calculation**<br>
+Automatic conversion of the generated graph into a pandapower model, enabling load flow and time series simulations. For the simulation of grid behavior over time standardized load profiles are used, allowing analysis of voltage levels, line loading.
+- **Geospatial visualization**<br>
+Visualization of networks, loads, and simulation results on geographic maps, enabling intuitive analysis.
 
 ### Study Area
 In progress ...
