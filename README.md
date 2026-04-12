@@ -62,11 +62,13 @@ Buildings are prepared for load estimation based on statistical assumptions and 
 - **Graph Preparation**<br>
 The road network is converted into a graph structure, which serves as the basis for later network generation
 
-### Prerequisites
-In progress ...
-
 ### Quick Start
-In progress ...
+For using this tool a Python installation 3.10+ is recommended. Follow these steps to set up the environment to execute the workflow for synthetic low-voltage grid generation.
+
+```bash
+conda env create -f lv_env.yml
+conda activate lv_env
+```
 
 ### Scientific Background
 This tool was developed as part of a master’s thesis at Vienna University of Technology (TU Wien). Further details on the methodology, assumptions, and results of the
