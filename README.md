@@ -63,12 +63,21 @@ Buildings are prepared for load estimation based on statistical assumptions and 
 The road network is converted into a graph structure, which serves as the basis for later network generation
 
 ### Quick Start
-For using this tool a Python installation 3.10+ is recommended. Follow these steps to set up the environment to execute the workflow for synthetic low-voltage grid generation.
+For using this tool a Miniconda installation and a Python installation 3.10+ is recommended. Follow these steps to set up the environment to execute the workflow for synthetic low-voltage grid generation.
 
+**1. Create the environment**
+Create the conda environment for the low-voltage grid workflow and PV-related analysis:
 ```bash
 conda env create -f lv_env.yml
-conda activate lv_env
+conda env create -f pv_env.yml
 ```
+**2. Select study area**
+
+**3. Set parameters**
+
+**4. Execute the workflow**
+
+**5. Results**
 
 ### Scientific Background
 This tool was developed as part of a master’s thesis at Vienna University of Technology (TU Wien). Further details on the methodology, assumptions, and results of the
