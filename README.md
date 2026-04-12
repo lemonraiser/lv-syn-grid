@@ -21,10 +21,30 @@ Automatic conversion of the generated graph into a pandapower model, enabling lo
 Visualization of networks, loads, and simulation results on geographic maps, enabling intuitive analysis.
 
 ### Study Area
-Within the scope of the thesis, see 
+Within the scope of the thesis, see section Citation, three rural regions in Lower Austria (Niederösterreich) were selected as case studies. Those areas were chosen primarily due to the availability of data required for model validation.<br>
+<br>
+While the implemented algorithm is demonstrated using these specific regions, it also can be applied to other geographical areas by adapting input data and parameters.
 
-### Data Sources
-In progress ...
+### Data Sources & Preprocessing
+<ins>Main Data Sources:</ins><br>
+The model is based on a combination of **geospatial, infrastructural, and statistical open data**. The primary data source consists of building and infrastructure data, which form the basis for network synthesis and load estimation.<br>
+- **OpenStreetMap (OSM)**<br>
+  Provides geospatial data such as:<br>
+  - Building footprints (basis for load allocation)
+  - Road networks (used for graph construction)
+- **Building-related Data**<br>
+  Additional attributes (e.g., building height or type) are used to improve load estimation by enabling approximations of usable floor area
+- **Statistical Data**<br>
+  Used for scaling and distribution of loads and generation:<br>
+  - Population data
+  - Regional energy statistics (e.g., PV capacity)
+- **Photovoltaic Data**<br>
+Locations of PV systems are derived and processed, with typical system parameters (e.g., 12 kWp per installation) assumed for modelling
+- **Standardized Load Profiles**<br>
+Used to model time-dependent electricity demand for different consumer types
+
+<ins>Preprocessing Steps:</ins><br>
+abc def
 
 ### Prerequisites
 In progress ...
