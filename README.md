@@ -44,7 +44,23 @@ Locations of PV systems are derived and processed, with typical system parameter
 Used to model time-dependent electricity demand for different consumer types
 
 <ins>Preprocessing Steps:</ins><br>
-abc def
+Before the actual network synthesis, the input data undergoes several preprocessing steps to ensure consistency and usability:<br>
+- **Data Extraction and Filtering**<br>
+Relevant features (e.g., buildings and roads) are extracted from OSM and filtered to the selected study area
+- **Coordinate Transformation**<br>
+All geospatial data is transformed into a **metric coordinate reference system (CRS) to allow accurate distance calculations and spatial operations
+- **Building Processing**<br>
+  - Calculation of building centroids
+  - Estimation of building characteristics (e.g., height, floor area)
+  - Assignment of building types of categories
+- **Load Allocation Preparation**<br>
+Buildings are prepared for load estimation based on statistical assumptions and available attributes
+- **PV Data Integration**<br>
+  - PV system locations are mapped to nearby buildings
+  - Coordinates are transformed to a consistent CRS
+  - Standardized system parameters are assigned for simulation
+- **Graph Preparation**<br>
+The road network is converted into a graph structure, which serves as the basis for later network generation
 
 ### Prerequisites
 In progress ...
