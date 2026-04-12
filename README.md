@@ -21,7 +21,7 @@ Automatic conversion of the generated graph into a pandapower model, enabling lo
 Visualization of networks, loads, and simulation results on geographic maps, enabling intuitive analysis.
 
 ### Study Area
-In progress ...
+Within the scope of the thesis, see 
 
 ### Data Sources
 In progress ...
