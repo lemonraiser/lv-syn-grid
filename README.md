@@ -72,10 +72,19 @@ conda env create -f lv_env.yml
 conda env create -f pv_env.yml
 ```
 **2. Select study area**
+The study area is defined using a user-created polygon with coordinates in WGS84 format, which is exported an imported via GeoDAG.ipynb for further processing. The polygon serves as the spatial boundary for the data acquisition process. Based on this area of interes, relevant OpenStreetMap (OSM) features located within the polygon are automatically retrieved, including:
+- building footprints<br/>
+- road networks<br/>
+- additional infrastructure-related OSM tags
 
 **3. Set parameters**
 
-**4. Execute the workflow**
+**4. Execute the workflow**<br/>
+Run the notebooks in the following order:
+1. GeoDAQ.ipynb - data acquisition and preprocessing<br/>
+2. GeoGraphModel.ipynb - graph construction<br/>
+3. GeoGridModel.ipynb - grid synthesis<br/>
+4. GeoPVModel.ipynb - PV integration and extension<br/>
 
 **5. Results**
 
